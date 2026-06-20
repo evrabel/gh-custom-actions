@@ -74,4 +74,4 @@ jobs:
         with:
           bucket: ekv-gha-custom-action-hosting
           dist-folder: ./dist
-          bucket-region: us-east-1
+          # bucket-region: us-east-1
