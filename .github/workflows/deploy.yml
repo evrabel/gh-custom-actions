@@ -70,7 +70,7 @@ jobs:
       - name: Output contents
         run: ls
       - name: Get AWS Permissions
-        uses: aws-actions/configure-aws-credentials
+        uses: aws-actions/configure-aws-credentials@v6.2.0
         with:
           role-to-assume: arn:aws:iam::595152901993:role/GitHubDemo1
           aws-region: us-east-1
