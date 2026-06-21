@@ -11,7 +11,7 @@ jobs:
         uses: actions/checkout@v6
       - name: Load & cache dependencies
         id: cache-deps
-        uses: ./.github/actions/cached-deps
+        uses: evrabel/gh-my-action@v1
         with:
           caching: "false"
       - name: Output information
